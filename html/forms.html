@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <style>
+        label,
+        textarea,
+        input[type=submit] {
+            margin-left: 25px;
+            margin-right: 1px;
+        }
+
+        .userName, .email {
+            margin-left: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <H2 style="text-align: center;">Form 1 - Contact Form</H2>
+        </header>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" class="userName">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" class="email">
+            </div>
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" cols="30" rows="3" maxlength="40"
+                    placeholder="Send a message"></textarea>
+            </div>
+            <div>
+                <input type="submit" id="submit">
+            </div>
+
+        </form>
+    </section>
+</body>
+
+</html>
