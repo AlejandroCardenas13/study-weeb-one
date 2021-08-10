@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: grey;
+    color: lavender;
+}
+nav{
+    text-align: center;
+}
+li {
+    background-color: red;
+    color: white;
+    list-style: none;
+    margin: 20px;
+    display: inline-block;
+}
