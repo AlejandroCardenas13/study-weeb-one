@@ -21,28 +21,28 @@ header>h1 {
     margin: 30px 0px 30px 20px;
 }
 
-#font1 {
+span#font1 {
     font-family: 'MonteCarlo', cursive;
     font-size: 25px;
 }
 
-#font2 {
+span#font2 {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
     font-size: 25px;
 }
 
-#font3 {
+span#font3 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 25px;
 }
 
-#font4 {
+span#font4 {
     font-family: 'Stint Ultra Condensed', cursive;
     font-size: 30px;
 }
 
-#font5 {
+span#font5 {
     font-family: 'Shojumaru', cursive;
     font-size: 25px;
 }

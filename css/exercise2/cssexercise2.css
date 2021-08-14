@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body {
+    background-color: burlywood;
+}
+
+/*
+Convert a nav to center menu
+*/
+
+nav>#menu {
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    /* NEW, Spec - Firefox, Chrome, Opera */
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem {
+    list-style-type: none;
+    float: none;
+    margin: 10px 25px 25px 25px;
+}
+
+.menuItem a {
+    padding: 10px;
+    background-color: brown;
+    display: block;
+    color: white;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuItem a:hover {
+    background-color: red;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section {
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#exampleSpan {
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#firstPart>p {
+    background-color: yellow;
+    font-size: 20px;
+}
+
+#secondPart>p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#firstSpan{
+    font-size: 20px;
+    background-color: yellow;
+}
+
+#bodyFooter{
+    background-color: teal;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 23px;
+    font-weight: bold;
+}
